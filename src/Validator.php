@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 
-namespace SMTPValidateEmail;
+namespace Hgalt\SMTPValidateEmail;
 
-use SMTPValidateEmail\Exceptions\Exception;
-use SMTPValidateEmail\Exceptions\Timeout as TimeoutException;
-use SMTPValidateEmail\Exceptions\NoTimeout as NoTimeoutException;
-use SMTPValidateEmail\Exceptions\NoConnection as NoConnectionException;
-use SMTPValidateEmail\Exceptions\UnexpectedResponse as UnexpectedResponseException;
-use SMTPValidateEmail\Exceptions\NoHelo as NoHeloException;
-use SMTPValidateEmail\Exceptions\NoMailFrom as NoMailFromException;
-use SMTPValidateEmail\Exceptions\NoResponse as NoResponseException;
-use SMTPValidateEmail\Exceptions\SendFailed as SendFailedException;
+use Hgalt\SMTPValidateEmail\Exceptions\Exception;
+use Hgalt\SMTPValidateEmail\Exceptions\Timeout as TimeoutException;
+use Hgalt\SMTPValidateEmail\Exceptions\NoTimeout as NoTimeoutException;
+use Hgalt\SMTPValidateEmail\Exceptions\NoConnection as NoConnectionException;
+use Hgalt\SMTPValidateEmail\Exceptions\UnexpectedResponse as UnexpectedResponseException;
+use Hgalt\SMTPValidateEmail\Exceptions\NoHelo as NoHeloException;
+use Hgalt\SMTPValidateEmail\Exceptions\NoMailFrom as NoMailFromException;
+use Hgalt\SMTPValidateEmail\Exceptions\NoResponse as NoResponseException;
+use Hgalt\SMTPValidateEmail\Exceptions\SendFailed as SendFailedException;
 
 class Validator
 {

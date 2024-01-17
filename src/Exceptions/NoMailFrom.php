@@ -1,6 +1,6 @@
 <?php
 
-namespace SMTPValidateEmail\Exceptions;
+namespace hgalt\SMTPValidateEmail\Exceptions;
 
 class NoMailFrom extends Exception
 {

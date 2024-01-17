@@ -1,5 +1,5 @@
 {
-    "name": "zytzagoo/smtp-validate-email",
+    "name": "hgalt/smtp-validate-email",
     "description": "Perform email address verification via SMTP",
     "keywords": [
       "smtp",
@@ -32,12 +32,12 @@
     },
     "autoload": {
       "psr-4": {
-        "SMTPValidateEmail\\": "src"
+        "Hgalt\\SMTPValidateEmail\\": "src"
       }
     },
     "autoload-dev": {
       "psr-4": {
-        "SMTPValidateEmail\\Tests\\": "tests"
+        "Hgalt\\SMTPValidateEmail\\Tests\\": "tests"
       }
     },
     "config": {
